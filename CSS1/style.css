@@ -43,13 +43,13 @@
     display: none;
     position: absolute;
     padding-top: 10px;
-    background-color:grey;
+    background-color:rgb(241, 222, 186);
     width: 100%;
     left: 0;
     top: 100%;
   }
   .menu .items ul > li {
-    color: white;
+    color: grey;
     padding: 5px;
   }
   .clearfix {
@@ -64,6 +64,9 @@
     height: 20px;
   }
   
+  .menu .items .cate:hover{
+    color: white;
+  }
   .ic {
     color: orange;
     float: right;
