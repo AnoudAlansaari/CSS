@@ -1,26 +1,30 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
-
-
-* {
-
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-
-
-html, body {
-    margin: 0;
-    padding: 0;
-    min-height: 100%;
-}
 
 *{
   margin: 0;
   padding: 0;
   list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
   }
   body{
     font-family: "roboto";
+  }
+
+  table{
+    background-color: #ced4da;
+    margin: 10px;
+    width: 25%;
+  }
+
+  table td {
+    padding: 10px;
+  }
+
+
+  .cart-form {
+    margin-top: 20px;
+    background-color: #3d3c3c;
+    padding: 7px;
+    color: white;
   }
   .small-nav,
   #main-header {
@@ -491,8 +495,7 @@ html, body {
     font-weight: normal;
     color: #fddd33;
     background-color: #65696c;
-    text-align: center;
-    font-size: 2.5em;
+    text-align: left;
     margin: 10px;
 }
 
@@ -556,12 +559,8 @@ html, body {
 
 .shop-item-title {
     display: block;
-    width: 100%;
     text-align: center;
-    font-weight: bold;
-    font-size: 1.5em;
     color: #333;
-    margin-bottom: 15px;
 }
 
 .shop-item-image {
